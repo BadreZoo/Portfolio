@@ -1,0 +1,85 @@
+.exp-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.exp1{
+ 
+    display: flex;
+    gap: 3%;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    padding-top: 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    width: 700px;
+    &:hover{
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+    transition: transform .2s; 
+}
+
+.exp-desc{
+    font-weight: 500;
+    margin-top: 15px;
+    line-height:30px;
+    span{
+        margin-top: 10px;
+    }
+}
+.exp-main-title{
+    text-align: center;
+    margin-bottom: 40px;
+    h3{
+        margin-top: 30px;
+        line-height: 25px;
+    }
+    h1{
+    
+        font-family: "Inter";
+    font-size: 45px;
+    letter-spacing: -1px;
+    padding-bottom: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-image: linear-gradient(147deg,#f90fd8,#f54377 26%,#fc1c1c 50%,#ffc30d 75%,#72fb59);
+    }
+}
+
+.texh-used{
+    margin-top: 15px;
+}
+.techs{
+    display: flex;
+    gap: 10%;
+    justify-content: flex-start;
+    margin-top: 25px;
+    
+}
+.tech{
+    background: #f5f5f5;
+    padding: 5px 12px;
+    border-radius: 50px;
+}
+.exp-title{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 22px;
+    color: #122746;
+    font-family: Inter;
+    h6{
+        font-size: 13px;
+    font-weight: 400;
+    margin-top: 4px;
+    color: #909fae;
+    }
+}

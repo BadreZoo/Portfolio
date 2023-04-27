@@ -1,0 +1,55 @@
+.logo-nav{
+  font-size: 35px;
+  font-family: "Inter",sans-serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+padding: 30px;
+ align-items: center;
+ 
+}
+.nav-link{
+  font-family: "Inter",sans-serif;
+  display: flex;
+  padding: 20px;
+  width: 500px;
+  gap: 10%;
+
+
+ 
+ a{
+  text-decoration: none;
+  padding: 10px;
+  transition: .2s ease-in-out;
+ }
+ li a{
+  font-size: 13px;
+  font-weight: 400;
+  color: #000314;
+}
+}
+.nav-link li a:hover{
+  color: #000314;
+  background: #dbdbdb;
+  cursor: pointer;
+  border-radius: 4px;
+
+  
+}
+.resum-btn{
+  border: 1px solid #313638;
+  background: none;
+  font-family: "Inter";
+  padding: 13px 20px;
+  border-radius: 50px;
+  color: #313638;
+  font-weight: 400;
+  outline: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+#App{
+
+  background-color: RGB(245, 247, 248);
+}
