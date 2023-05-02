@@ -32,7 +32,7 @@ function App() {
   };
   return (
 
-    <div id={`App ${toggleContact ? "Active" : ""}`} >
+    <div id={`App ${toggleContact ? "Active" : "disabled"}`} >
 
 <nav className="navbar">
         <div className="logo-nav">Badre.</div>
