@@ -53,3 +53,147 @@ padding: 30px;
 
   background-color: RGB(245, 247, 248);
 }
+div#App\ Active {
+background-color: RGB(220, 220, 220);
+}
+.logo-nav{
+  font-size: 35px;
+  font-family: "Inter",sans-serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+padding: 30px;
+ align-items: center;
+ 
+}
+.nav-link{
+  font-family: "Inter",sans-serif;
+  display: flex;
+  padding: 20px;
+  width: 500px;
+  gap: 10%;
+
+
+ 
+ a{
+  text-decoration: none;
+  padding: 10px;
+  transition: .2s ease-in-out;
+ }
+ li a{
+  font-size: 13px;
+  font-weight: 400;
+  color: #000314;
+}
+}
+.nav-link li a:hover{
+  color: #000314;
+  background: #dbdbdb;
+  cursor: pointer;
+  border-radius: 4px;
+
+  
+}
+.mecontacter-btn{
+  border: 1px solid #313638;
+  background: none;
+  font-family: "Inter";
+  padding: 13px 20px;
+  border-radius: 50px;
+
+  font-weight: 400;
+  outline: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.toggle-contactme{
+  overflow: hidden;
+margin-left: auto;
+  margin-right: auto;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+padding: 50px;
+
+ background-color: #fff;
+ width: 470px;
+ border-radius: 5px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-contact{
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+  transition-duration: 2s;
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+   border: 1px solid gray;
+  }
+  textarea{
+    height: 150px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+}
+
+.title-contactme{
+  font-family: Inter;
+  -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-image: url(https://media2.giphy.com/media/dAWZiSMbMvObDWP3aA/200w.gif?cid=82a1493byp37003a7qbmajj1l5tg7mcliwmw1twdt960cw2l&ct=g&rid=200w.gif);
+  text-align: center;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.send-btn{
+  input{
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+   width: 100px;
+  }
+}
+.close-icon{
+
+ position: absolute;
+ top: 4%;
+right: 3%;
+cursor: pointer;
+  
+}
