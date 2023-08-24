@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from 'semantic-ui-react'
 import trvlsquad from './travelsquad.png'
+import githubfinder from './Capture d’écran 2023-08-24 131521.png'
 import './style.scss'
 const Project = () => {
   return (
@@ -21,11 +22,22 @@ const Project = () => {
                    <Button primary ><a href="https://travelsquad.netlify.app/"  rel="noreferrer" target='_blank'> Live Website</a></Button>
                     
                    </div>
-                 
-                  
+                   
                    
             </div>
-
+            <div className="project">
+                <img src={githubfinder} className='img-github' height="130px" alt="" />
+                <div className="project-desc">
+                <h1>GitHub Fidner</h1>
+                <p>Explorez le monde de GitHub avec facilité grâce à GitHub User Searcher. Trouvez, découvrez et connectez-vous avec des utilisateurs GitHub en un clin d'œil.</p>
+                   </div>
+                   <div className="redirect-project">
+                   <Button primary ><a href="https://findmyrepos.netlify.app/"  rel="noreferrer" target='_blank'> Live Website</a></Button>
+                    
+                   </div>
+                   
+                   
+            </div>
            
             
         </div>
